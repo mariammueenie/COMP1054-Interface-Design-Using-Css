@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+Box-sizing reset (https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/) */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	font-family: "Open Sans", sans-serif;
+}
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+/* More formatting for tabs */
+.tabs {
+	margin: 0.5rem auto;
+	width: 80%;
+  }
+/* Styling tabs, horizontally */
+.tabs ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: whitesmoke;
+	border-radius: 1rem 1rem 0 0; /* Rounded corners for the tab container */
+  }
+
+/* Styling individually for each tab */
+.tabs li {
+	margin: 0;
+	flex: 1; /* Make tabs evenly spaced */
+  }
+
+/* Styling text within tab and tab (https://developer.mozilla.org/en-US/docs/Web/CSS/display#examples) */
+  .tabs li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px 5px 0 0;
+	text-decoration: none;
+  }
+
+  /*.tabs li a:hover {
+	background-color: #ddd;
+	color: #000;
+  }
+
+/* Active tab styling, Hide border under active tab, so you can tell which of 3 you are reading */
+/*.tabs li a:target {
+	border-bottom: 0;
+	background-color: white;
+}
+
+
+/* Style for the tab panels */
+.tabs div[role="tabpanel"] {
+	display: none; /* Hide all tab panels by default */
+	padding: 20px;
+	background-color: white;
+	border: 2px solid black;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
+  }
+
+/* Active panel (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity)*/
+  .tabs div[role="tabpanel"].active {
+	display: block; /* Show the active tab panel */
+	border-bottom: transparent;
+  }
+
+  /* Show the selected active tab panel (including text within) when it is targeted (idea for which class to use courtesy of ChatGPT)
+  (WEB REF: https://developer.mozilla.org/en-US/docs/Web/CSS/:target) */
+#tabpanel1:target,
+#tabpanel2:target,
+#tabpanel3:target {
+  display: block; /* Show the targeted tab panel */
+}
