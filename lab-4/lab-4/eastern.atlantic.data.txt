@@ -1,0 +1,155 @@
+Eastern
+Atlantic
+
+Rank - 6
+Team- Detroit Red Wings 
+Games Played (GP) - 74
+Wins (W) - 34
+Losses (L) - 33
+Overtime Losses (OT) - 7
+Points (PTS) - 75
+Points % (P%) - .507
+Regulation Wins (RW) - 26
+Regulation plus Overtime Wins (ROW) - 31
+Goals For (GF) - 211
+Goals Against (GA) - 234
+Goal Differential (DIFF) - -23
+Home Record (HOME) - 19-16-3
+Away Record (AWAY) - 15-17-4
+Shootout Record (S/O) - 3-0
+Last Ten Record (L10) - 4-5-1
+Streak (STRK) - OT1
+
+Rank - 7
+Team - Buffalo Sabres
+Games Played (GP) - 74
+Wins (W) - 32
+Losses (L) - 36
+Overtime Losses (OT) - 6
+Points (PTS) - 70
+Points % (P%) - .473
+Regulation Wins (RW) - 26
+Regulation plus Overtime Wins (ROW) - 29
+Goals For (GF) - 244
+Goals Against (GA) - 263
+Goal Differential (DIFF) - -19
+Home Record (HOME) - 19-14-3
+Away Record (AWAY) - 13-22-3
+Shootout Record (S/O) - 3-1
+Last Ten Record (L10) - 7-3-0
+Streak (STRK) - W2
+
+Rank - 1
+Team - Toronto Maple Leafs
+Games Played (GP) - 75
+Wins (W) - 46
+Losses (L) - 25
+Overtime Losses (OT) - 4
+Points (PTS) - 96
+Points % (P%) - .640
+Regulation Wins (RW) - 38
+Regulation plus Overtime Wins (ROW) - 45
+Goals For (GF) - 245
+Goals Against (GA) - 221
+Goal Differential (DIFF) - +24
+Home Record (HOME) - 24-13-1
+Away Record (AWAY) - 22-12-3
+Shootout Record (S/O) - 1-2
+Last Ten Record (L10) - 7-2-1
+Streak (STRK) - W3
+
+Rank - 2
+Team - Tampa Bay Lighting
+Games Played (GP) - 75
+Wins (W) - 44
+Losses (L) - 26
+Overtime Losses (OT) - 5
+Points (PTS) - 93
+Points % (P%) - .620
+Regulation Wins (RW) - 38
+Regulation plus Overtime Wins (ROW) - 42
+Goals For (GF) - 269
+Goals Against (GA) - 198
+Goal Differential (DIFF) - +71
+Home Record (HOME) - 27-8-2
+Away Record (AWAY) - 17-18-3
+Shootout Record (S/O) - 2-2
+Last Ten Record (L10) - 7-3-0
+Streak (STRK) - L1
+
+Rank - 3
+Team - Florida Panthers 
+Games Played (GP) - 75
+Wins (W) - 44
+Losses (L) - 27
+Overtime Losses (OT) - 4
+Points (PTS) - 92
+Points % (P%) - .613
+Regulation Wins (RW) - 35
+Regulation plus Overtime Wins (ROW) - 39
+Goals For (GF) - 237
+Goals Against (GA) - 204
+Goal Differential (DIFF) - +33
+Home Record (HOME) - 24-11-2
+Away Record (AWAY) - 20-16-2
+Shootout Record (S/O) - 5-0
+Last Ten Record (L10) - 4-5-1
+Streak (STRK) - L1
+
+Rank - 4
+Team - Ottawa Senators 
+Games Played (GP) - 75
+Wins (W) - 40
+Losses (L) - 29
+Overtime Losses (OT) - 6
+Points (PTS) - 86
+Points % (P%) - .573
+Regulation Wins (RW) - 31
+Regulation plus Overtime Wins (ROW) - 39
+Goals For (GF) - 215
+Goals Against (GA) - 215
+Goal Differential (DIFF) - 0
+Home Record (HOME) - 22-11-2
+Away Record (AWAY) - 18-18-4
+Shootout Record (S/O) - 1-2
+Last Ten Record (L10) - 5-4-1
+Streak (STRK) - W1
+
+Rank - 5
+Team - Montreal Canadiens 
+Games Played (GP) - 75
+Wins (W) - 36
+Losses (L) - 30
+Overtime Losses (OT) - 9
+Points (PTS) - 81
+Points % (P%) - .540
+Regulation Wins (RW) - 26
+Regulation plus Overtime Wins (ROW) - 34
+Goals For (GF) - 227
+Goals Against (GA) - 249
+Goal Differential (DIFF) - -22
+Home Record (HOME) - 20-12-5
+Away Record (AWAY) - 16-18-4
+Shootout Record (S/O) - 2-3
+Last Ten Record (L10) - 5-3-2
+Streak (STRK) - W3
+
+Rank - 8
+Team - Boston Bruins 
+Games Played (GP) - 76
+Wins (W) - 30
+Losses (L) - 37
+Overtime Losses (OT) - 9
+Points (PTS) - 69
+Points % (P%) - .454
+Regulation Wins (RW) - 23
+Regulation plus Overtime Wins (ROW) - 30
+Goals For (GF) - 197
+Goals Against (GA) - 252
+Goal Differential (DIFF) - -55
+Home Record (HOME) - 19-13-6
+Away Record (AWAY) - 11-24-3
+Shootout Record (S/O) - 0-1
+Last Ten Record (L10) - 0-9-1
+Streak (STRK) - L7
+
