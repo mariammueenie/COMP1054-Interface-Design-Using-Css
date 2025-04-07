@@ -15,18 +15,22 @@
 		</header>
 		<main>
 			<article>
-				<img src="hunter-harrison.jpg" alt="Hunter Harrison" height="" width="" />
+				
 				
 				<!-- initially added class to the <h2> and <p>, but while developing flex grid, realized this was easier -->
 				<!-- also changed title, to make the 2nd, 3rd, and 4th word lowercase- like the magazine -->
 				<!-- wrapped the image and top content in a container- losing my mind trying to format the css flex grid, feel this is necessary change to html -->
+				<!-- moved image into above the fold container -->
 				<div class ="above-the-fold-container">
+					<img src="hunter-harrison.jpg" alt="Hunter Harrison" />
 					<h2 class="above-the-fold">The road well travelled</h2>
 					<p class="above-the-fold"><strong>Hunter Harrison</strong> started out in the railway business as a teenaged labourer in Memphis, and rose to the top of the industry, serving as CEO of Canadian National Railway Co. for the past seven years. Now, the straight-talking 65-year old is bowing out of the company that he pushed to big efficiency gains, and where he often clashed with unions, most recently with locomotive engineers this past fall. With <abbr title="Canadian National">CN</abbr> executive vice-president Claude Mongeau set to succeed him on Jan. 1, Harrison talked about his career and where he’s headed.</p>
 				</div>
 				
 				<!-- wrap the rest of the article in a separate container -->
-				<div class="content-block">
+				<!-- chatGPT helped me debug my flexbox grid, it initially was not working, chat suggested adding an extra wrapper to the article content, to make targeting easier and avoid very complex css selectors -->
+				<div class="article-container">
+					<div class="content-block">
 					<h2>Are you going to put your feet up?</h2>
 					<p>For a little while. The worst thing some people do is try to plan retirement too much. You need a little time to reflect on what you want to do. My family is in the horse business, so I’m going to get more involved in that. And I might write a book or two on leadership. I might consult or sit on a board, but I’m not going to be a professional director. After Sarbanes-Oxley and some of the other legislation, I get worried that boards are more concerned with optics then the bottom line. That takes the fun out of it.</p>
 					<h2>What would be the big idea in your book?</h2>
@@ -42,6 +46,7 @@
 					<h2>What Happened?</h2>
 					<p>It’s the flight from downtown. It’s something we in the south haven’t dealt with very well since the Civil Rights Act. It’s still going on, but maybe one day. You don’t pass a law and change people’s viewpoints and attitudes. To some degree, it’s a scar on me internally. I was there when Martin Luther King was killed, and it was terrible. It wasn’t only the fear, but the mental scars on people. It’s shocking, as you grow up, to be taught one thing about certain leadership, then somebody says we had this thing all wrong for 100 years. So Memphis has a love-hate kind of deal with me. I started out in East Memphis and finished on the other side of town. After 46 years in the business, the company named the [Memphis] rail yard after me. That’s kind of a miracle.</p>
 					<p>–Gordon Pitts</p>
+					</div>
 				</div>
 			</article>
 		</main>
