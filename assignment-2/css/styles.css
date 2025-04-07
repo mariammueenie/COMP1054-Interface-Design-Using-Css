@@ -60,3 +60,48 @@ p {
     text-align: left; /*align the text to the left */
     font-size: 1em; /*keep font size consistent in comparison to the rest of the text*/
 }
+
+/*-- FLEXBOX GRID SYSTEM --*/
+
+/* main article layout */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* adds spacing between items */
+}
+
+/* image and above-the-fold content taking 2/3 of the space */
+img, .above-the-fold {
+    flex: 2; /* takes up 2/3 of the space */
+}
+
+/* remaining content taking up 1/3 of the space */
+article p:not(.above-the-fold), article h2:not(.above-the-fold) {
+    flex: 1; /* takes up 1/3 */
+}
+
+/*-- RESPONSIVE DESIGN --*/
+
+/* medium screens: two columns */
+@media (max-width: 900px) {
+    article {
+        flex-direction: row;
+    }
+    img, .above-the-fold {
+        flex: 2; /* stays 2/3 */
+    }
+    article p:not(.above-the-fold), article h2:not(.above-the-fold) {
+        flex: 1; /* stays 1/3 */
+    }
+}
+
+/* small screens: single column */
+@media (max-width: 600px) {
+    article {
+        flex-direction: column; /* stacks everything in one column */
+    }
+    img, .above-the-fold, article p:not(.above-the-fold), article h2:not(.above-the-fold) {
+        flex: none;
+        width: 100%; /* makes each take up full width */
+    }
+}
