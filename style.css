@@ -76,6 +76,10 @@ p {
   font-family: 'Syne';
 }
 
+/* all container class take up certain percentage of screen */
+.container {
+  width: 90%;
+}
 
 
 
