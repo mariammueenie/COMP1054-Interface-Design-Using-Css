@@ -4,18 +4,28 @@
   /* ref: https://css-tricks.com/typography-for-developers/ */
   /* ref: https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts */
   /* ref: https://transfonter.org/ */
+  /* ref: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts */
 @font-face {
   font-family: 'New Rocker';
   src: url('./fonts/NewRocker.woff2') format('woff2');
+  src: url('./fonts/NewRocker.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+/* ref: https://fonts.google.com/specimen/Syne */
+@font-face {
+  font-family: 'Syne';
+  src: url('./fonts/Syne.woff2') format('woff2');
+  src: url('./fonts/Syne.woff') format('woff');
 }
 
 /* ref: https://fonts.google.com/specimen/Covered+By+Your+Grace */
 @font-face {
   font-family: 'Covered By Your Grace';
   src: url('./fonts/CoveredByYourGrace.woff2') format('woff2');
+  src: url('./fonts/CoveredByYourGrace.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,14 +34,11 @@
 /* ref: https://fonts.google.com/specimen/Syne+Tactile */
 @font-face {
   font-family: 'Syne Tactile';
-  src: url('./fonts/SyneTactile.woff2') format(woff2);
+  src: url('./fonts/SyneTactile.woff2') format('woff2');
+  src: url('./fonts/SyneTactile.woff') format('woff');
 }
 
-/* ref: https://fonts.google.com/specimen/Syne */
-@font-face {
-  font-family: 'Syne';
-  src: url('./fonts/Syne.woff2') format(woff2);
-}
+
 
 /* grunge metro aesthetic colours */
   /* ref: https://imagecolorpicker.com/en */
