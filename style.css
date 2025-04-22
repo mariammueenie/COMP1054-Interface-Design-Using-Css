@@ -190,15 +190,35 @@ main ul li a {
 
 /* ~ ~ ~ FOOTER SECTION ~ ~ ~ */
 
-/* how footer background will look */
-footer{
+/* gen styling for footer */
+footer.page-footer{
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-size: var(--font-size-text);
+  text-align: center;
 }
 
+/* style container for footer content */
+footer.page-footer .container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* footer paragraphs */
+footer.page-footer p {
+  margin-bottom: 20px;
+}
 
 /* how containers for each tab of footer respond */
 footer ul li {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* styling for footer links */
+footer.page-footer a {
+  color: var(--color-primary-alt);
+  /* text-decoration: none; */
 }
 
 /* how text in each tab will look */
