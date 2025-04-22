@@ -83,11 +83,13 @@ p {
   width: 90%;
   margin:auto;
   background-color: var(--color-background);
+  border-radius: 8px;
 }
 
 /* background image */
 body {
   /* background-image: url('./images/wallpaper.jpg'); */
+  /* ref: https://www.deviantart.com/xxtenshidarkxx/art/Emo-wallpaper-pink-964917783 */
   background-color: #d42257;
 }
 
@@ -99,6 +101,7 @@ body {
   font-size: var(--font-size-h4);
   font-family: 'Syne';
   display: inline-block;
+  border-radius: 8px;
 }
 
 
@@ -114,6 +117,7 @@ h1 {
 /* general header styling- font size, weight, etc */
 header {
   background-color: var(--color-background);
+  border-radius: 8px;
 }
 
 /* how header container responds- screen width / flex, and such */
@@ -146,6 +150,19 @@ nav ul li a {
   color: var(--color-primary);
   font-family: 'Syne';
   text-decoration: none;
+}
+
+/* styling star + git link */
+.link-github {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--color-secondary);
+  padding: 12px 20px;
+  border-radius: 8px;
+  border-color: var(--color-primary-alt);
+  text-decoration: none;
+  font-family: 'Syne';
+  font-size: var(--font-size-h4);
 }
 
 /* ~ ~ ~ MAIN SECTION ~ ~ ~ */
