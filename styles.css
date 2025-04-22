@@ -13,14 +13,19 @@
   src: local("Baloo 2 Medium"), local("Baloo-2-Medium"), url("../../fonts/baloo-2-v1-latin-500.woff2") format("woff2");
   font-display: swap;
 }
+
+/* grunge metro aesthetic colours */
+/* used colour dropper tool, and images from fruitiger (grunge) aero aesthetics wiki to find hex codes for colours */
+/* colour dropper: https://imagecolorpicker.com/en */
+/* aesthetics wiki page - fruiteger (grunge) metro: https://aesthetics.fandom.com/wiki/Frutiger_Metro?file=D1df6y6-173b630e-56aa-488e-9442-533f250d9eb5.jpg */
 :root {
-  --color-primary: #3a00ff;
-  --color-primary-alt: #6f6ffd;
+  --color-primary: #f5f5f5;
+  --color-primary-alt: #8e8e95;
   --color-secondary: #d42257;
-  --color-background: #d2fbf7;
-  --color-text: #412d86;
-  --color-light: #fff;
-  --color-anchor: #3a00ff;
+  --color-background: #1c1c1c;
+  --color-text: #ff4f81;
+  --color-light: #d799a6;
+  --color-anchor: #3a86ff;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
