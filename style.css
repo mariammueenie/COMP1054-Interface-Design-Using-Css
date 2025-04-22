@@ -119,10 +119,17 @@ blockquote strong {
 
 }
 
-/* how container for each 'example of css' box responds   */
+/* how container for 'example of css' box responds   */
 main ul {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none; /* gets rid of list jot*/
+}
+
+/* how each item in 'example of css' responds */
+main ul li {
+  flex: 1 1 33%; /* each item 33% of container */
+  margin: auto;
 }
 
 /* how text in each 'example of css' box responds */
