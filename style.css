@@ -5,6 +5,8 @@
 /* used colour dropper tool, and images from fruitiger (grunge) aero aesthetics wiki to find hex codes for colours */
 /* colour dropper: https://imagecolorpicker.com/en */
 /* aesthetics wiki page - fruiteger (grunge) metro: https://aesthetics.fandom.com/wiki/Frutiger_Metro?file=D1df6y6-173b630e-56aa-488e-9442-533f250d9eb5.jpg */
+
+/* have colour-palette pre-defined up here, so within each selector below, rather than put colours in each, I can choose colour-primary or colour-backround. makes it easier to change around overall look of page */
 :root {
   --color-primary: #f5f5f5;
   --color-primary-alt: #00bfff;
@@ -13,7 +15,7 @@
   --color-text: #f5f5f5;
   --color-light: #d188a9;
   --color-anchor: #8e8eff;
-  --font-family: "Baloo 2", sans-serif;
+  --font-family:
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
   --font-size-h2: 3rem;
@@ -66,12 +68,53 @@ nav ul li a {
 blockquote {
 
 }
+/* if i wanna spruce up block quote strong */
+blockquote strong {
 
+}
+
+/* how container for each 'example of css' box responds   */
+main ul {
+
+}
+
+/* how text in each 'example of css' box responds */
+main ul li a {
+
+}
 
 
 
 /* ~ ~ ~ FOOTER SECTION ~ ~ ~ */
 
+/* how footer background will look */
+footer{
+
+}
+
+
+/* how containers for each tab of footer respond */
+footer ul li {
+
+}
+
+/* how text in each tab will look */
+footer ul li a {
+
+}
 
 
 /* ~ ~ ~ ASIDE SECTION ~ ~ ~ */
+
+/* how each of 3 boxes containing styles will respond  */
+aside ul li {
+
+}
+
+/* how text in each of 3 boxes containing styles will look  */
+aside ul li a {
+
+}
+
+/* references */
+/* in case I reference something that I use in a few places, i can just write [ref 2] and then reader can scroll down here to see ref */
