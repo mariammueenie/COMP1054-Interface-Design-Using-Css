@@ -55,6 +55,7 @@ h2 {
 /* all p text is styled the same */
 p {
   font-size: var(--font-size-text);
+  font-family: sans-serif;
 }
 
 
