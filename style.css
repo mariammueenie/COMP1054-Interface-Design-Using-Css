@@ -220,6 +220,25 @@ aside.profile {
   align-items: center;
 }
 
+/* profiles title */
+h4#profile-title {
+  font-family: 'New Rocker';
+  color: var(--color-primary);
+  font-size: var(--font-size-h4);
+}
+
+/* style container ul */
+ul {
+  list-style-type: none;
+}
+
+/* each item style */
+li {
+  font-size: var(--font-size-text);
+  color: var(--color-primary);
+  font-family: 'Syne';
+}
+
 /* how each of 3 boxes containing styles will respond  */
 aside ul li {
   display: flex;
@@ -228,6 +247,9 @@ aside ul li {
 
 /* how text in each of 3 boxes containing styles will look  */
 aside ul li a {
+  font-size: var(--font-size-text);
+  font-family: 'Syne';
+  color: var(--color-primary);
 }
 
 /* references */
