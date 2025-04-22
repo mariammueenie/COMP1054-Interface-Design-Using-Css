@@ -127,11 +127,25 @@ nav ul {
   list-style: none;
 }
 
+/* consistent tab styling */
+nav ul li {
+  flex: 0 1 auto;
+  margin: auto;
+  box-sizing: border-box;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-light);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Syne';
+}
+
 /* how text in each navigation tab is styled */
 nav ul li a {
   color: var(--color-primary);
   font-family: 'Syne';
-  
+  text-decoration: none;
 }
 
 /* ~ ~ ~ MAIN SECTION ~ ~ ~ */
@@ -150,8 +164,8 @@ blockquote strong {
 main ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 1rem;
+  justify-content: space-around;
+  gap: 1.5rem;
   list-style: none; /* gets rid of list jot*/
 }
 
@@ -163,7 +177,10 @@ main ul li {
   color: var(--color-primary);
   padding: 1rem;
   background-color: var(--color-secondary);
-  border: 2px solid var(--color-light)
+  border: 2px solid var(--color-light);
+  border-radius: 8px;
+  text-align: center;
+
 }
 
 /* how text in each 'example of css' box responds */
