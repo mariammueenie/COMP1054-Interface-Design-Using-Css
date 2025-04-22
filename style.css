@@ -63,11 +63,11 @@
 /* ~ ~ ~ GROUPED STYLING ~ ~ ~ */
 /* not specific to a section, like if all h2's are styled the same- to make code more efficient/manageable */
 
-/* all h2 text is styled the same */
-h2 {
-  font-size: var(--font-size-h2);
-  font-family: 'Syne';
+/* all header text is styled the same */
+h1, h2, h3, h4 {
+  font-family: 'New Rocker';
   color: var(--color-primary);
+  margin-bottom: 20px;
 
 }
 
@@ -90,6 +90,17 @@ body {
   /* background-image: url('./images/wallpaper.jpg'); */
   background-color: #d42257;
 }
+
+/* general styling for skip link, make it look like button */
+.skip-link {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  pad: 20px 20px;
+  font-size: var(--font-size-h4);
+  font-family: 'Syne';
+  display: inline-block;
+}
+
 
 
 /* ~ ~ ~ HEADER SECTION ~ ~ ~ */
