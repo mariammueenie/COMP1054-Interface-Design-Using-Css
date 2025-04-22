@@ -78,10 +78,17 @@ p {
   color: var(--color-secondary);
 }
 
-/* all container class take up certain percentage of screen */
+/* all container class styling + take up certain percentage of screen */
 .container {
   width: 90%;
   margin:auto;
+  background-color: var(--color-background);
+}
+
+/* background image */
+body {
+  /* background-image: url('./images/wallpaper.jpg'); */
+  background-color: #d42257;
 }
 
 
@@ -120,11 +127,12 @@ nav ul li a {
 
 /* there is only 1 block quote, in main */
 blockquote {
+  color: var(--color-primary);
 
 }
 /* if i wanna spruce up block quote strong */
 blockquote strong {
-
+  color: var(--color-primary);
 }
 
 /* how container for 'example of css' box responds   */
@@ -152,6 +160,32 @@ main ul li a {
   text-align: center;
 }
 
+/* steps section container */
+#contribute section:nth-of-type(2) {
+  background-color: var(--color-background);
+  border: 2px solid var(--color-light);
+}
+
+/* header for steps */
+#contribute h3 {
+  font-family: 'New Rocker';
+  font-size: var(--font-size-h3);
+  color: var(--color-primary);
+  text-align: center;
+}
+
+/* styling the items (steps) */
+#contribute ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* individual item styling */
+#contribute ol li {
+  font-family: 'Syne';
+  color: var(--color-light);
+}
 
 
 /* ~ ~ ~ FOOTER SECTION ~ ~ ~ */
@@ -174,7 +208,16 @@ footer ul li a {
 
 /* ~ ~ ~ ASIDE SECTION ~ ~ ~ */
 
-aside {
+aside.profile {
+  background-color: var(--color-background);
+  border-radius: 8px;
+}
+
+/* control how container will display */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* how each of 3 boxes containing styles will respond  */
