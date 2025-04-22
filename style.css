@@ -85,9 +85,6 @@ p {
   margin: 2rem auto;
   background-color: var(--color-background);
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* background image */
@@ -147,15 +144,15 @@ nav ul {
 
 /* consistent tab styling */
 nav ul li {
-  flex: 0 1 auto;
-  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
   box-sizing: border-box;
   color: var(--color-light);
   background-color: var(--color-background);
   border: 2px solid var(--color-light);
   border-radius: 8px;
-  padding: 1rem;
-  text-align: center;
   font-family: 'Syne';
 }
 
@@ -164,6 +161,7 @@ nav ul li a {
   color: var(--color-primary);
   font-family: 'Syne';
   text-decoration: none;
+  display: flex;
 }
 
 /* styling star + git link */
