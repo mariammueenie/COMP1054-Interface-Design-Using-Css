@@ -19,6 +19,12 @@
   font-display: swap;
 }
 
+/* cool google font: https://fonts.google.com/specimen/Syne+Tactile */
+@font-face {
+  font-family: 'Syne Tactile';
+  src: url('./fonts/SyneTactile.woff2') format(woff2);
+}
+
 /* grunge metro aesthetic colours */
 /* used colour dropper tool, and images from fruitiger (grunge) aero aesthetics wiki to find hex codes for colours */
 /* colour dropper: https://imagecolorpicker.com/en */
@@ -48,7 +54,7 @@
 /* all h2 text is styled the same */
 h2 {
   font-size: var(--font-size-h2);
-  font-family: 'Covered By Your Grace';
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
