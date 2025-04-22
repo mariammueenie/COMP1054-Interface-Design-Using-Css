@@ -25,6 +25,17 @@
 /* ~ ~ ~ GROUPED STYLING ~ ~ ~ */
 /* not specific to a section, like if all h2's are styled the same- to make code more efficient/manageable */
 
+/* all h2 text is styled the same */
+h2 {
+
+}
+
+/* all p text is styled the same */
+p {
+
+}
+
+
 
 
 /* ~ ~ ~ HEADER SECTION ~ ~ ~ */
@@ -39,7 +50,23 @@ header .container{
 
 }
 
+/* how container for each navigation tabs responds-  */
+nav ul {
+
+}
+
+/* how text in each navigation tab is styled */
+nav ul li a {
+  
+}
+
 /* ~ ~ ~ MAIN SECTION ~ ~ ~ */
+
+/* there is only 1 block quote, in main */
+blockquote {
+
+}
+
 
 
 
