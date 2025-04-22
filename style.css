@@ -21,3 +21,30 @@
   --font-size-h4: 1.35rem;
   --font-size-text: 1.15rem;
 }
+
+/* ~ ~ ~ GROUPED STYLING ~ ~ ~ */
+/* not specific to a section, like if all h2's are styled the same- to make code more efficient/manageable */
+
+
+
+/* ~ ~ ~ HEADER SECTION ~ ~ ~ */
+
+/* general header styling- font size, weight, etc */
+header {
+
+}
+
+/* how header container responds- screen width / flex, and such */
+header .container{
+
+}
+
+/* ~ ~ ~ MAIN SECTION ~ ~ ~ */
+
+
+
+/* ~ ~ ~ FOOTER SECTION ~ ~ ~ */
+
+
+
+/* ~ ~ ~ ASIDE SECTION ~ ~ ~ */
