@@ -82,9 +82,12 @@ p {
 /* all container class styling + take up certain percentage of screen */
 .container {
   width: 90%;
-  margin:auto;
+  margin: 2rem auto;
   background-color: var(--color-background);
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* background image */
@@ -92,6 +95,18 @@ body {
   /* background-image: url('./images/wallpaper.jpg'); */
   /* ref: https://www.deviantart.com/xxtenshidarkxx/art/Emo-wallpaper-pink-964917783 */
   background-color: #d42257;
+}
+
+/* general styling for all links */
+a {
+  color: var(--color-primary-alt);
+  font-family: 'Syne';
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-anchor);
+  font-weight: var(--font-weight-strong);
 }
 
 /* general styling for skip link, make it look like button */
@@ -104,8 +119,6 @@ body {
   display: inline-block;
   border-radius: 8px;
 }
-
-
 
 /* ~ ~ ~ HEADER SECTION ~ ~ ~ */
 
@@ -284,8 +297,8 @@ footer.page-footer a {
 }
 
 /* how text in each tab will look */
-footer ul li a {
-}
+/* footer ul li a {
+} */
 
 
 /* ~ ~ ~ ASIDE SECTION ~ ~ ~ */
