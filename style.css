@@ -7,6 +7,7 @@
 /* aesthetics wiki page - fruiteger (grunge) metro: https://aesthetics.fandom.com/wiki/Frutiger_Metro?file=D1df6y6-173b630e-56aa-488e-9442-533f250d9eb5.jpg */
 
 /* have colour-palette pre-defined up here, so within each selector below, rather than put colours in each, I can choose colour-primary or colour-backround. makes it easier to change around overall look of page */
+/* insert re */
 :root {
   --color-primary: #f5f5f5;
   --color-primary-alt: #00bfff;
@@ -29,12 +30,13 @@
 
 /* all h2 text is styled the same */
 h2 {
+  font-size: var(--font-size-h2);
 
 }
 
 /* all p text is styled the same */
 p {
-
+  font-size: var(--font-size-text);
 }
 
 
@@ -75,7 +77,7 @@ blockquote strong {
 
 /* how container for each 'example of css' box responds   */
 main ul {
-
+  display: flex;
 }
 
 /* how text in each 'example of css' box responds */
@@ -95,7 +97,7 @@ footer{
 
 /* how containers for each tab of footer respond */
 footer ul li {
-
+  display: flex;
 }
 
 /* how text in each tab will look */
@@ -108,7 +110,7 @@ footer ul li a {
 
 /* how each of 3 boxes containing styles will respond  */
 aside ul li {
-
+  display: flex;
 }
 
 /* how text in each of 3 boxes containing styles will look  */
