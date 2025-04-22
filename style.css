@@ -83,31 +83,29 @@ p {
 }
 
 
-
 /* ~ ~ ~ HEADER SECTION ~ ~ ~ */
 
 h1 {
   font-family: 'New Rocker';
+  margin: auto;
 }
 
 /* general header styling- font size, weight, etc */
 header {
-
 }
 
 /* how header container responds- screen width / flex, and such */
 header .container{
-
 }
 
 /* how container for each navigation tabs responds-  */
 nav ul {
-
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* how text in each navigation tab is styled */
 nav ul li a {
-  
 }
 
 /* ~ ~ ~ MAIN SECTION ~ ~ ~ */
@@ -124,11 +122,11 @@ blockquote strong {
 /* how container for each 'example of css' box responds   */
 main ul {
   display: flex;
+  justify-content: space-evenly;
 }
 
 /* how text in each 'example of css' box responds */
 main ul li a {
-
 }
 
 
@@ -137,31 +135,33 @@ main ul li a {
 
 /* how footer background will look */
 footer{
-
 }
 
 
 /* how containers for each tab of footer respond */
 footer ul li {
   display: flex;
+  justify-content: space-evenly;
 }
 
 /* how text in each tab will look */
 footer ul li a {
-
 }
 
 
 /* ~ ~ ~ ASIDE SECTION ~ ~ ~ */
 
+aside {
+}
+
 /* how each of 3 boxes containing styles will respond  */
 aside ul li {
   display: flex;
+  justify-content: space-evenly;
 }
 
 /* how text in each of 3 boxes containing styles will look  */
 aside ul li a {
-
 }
 
 /* references */
