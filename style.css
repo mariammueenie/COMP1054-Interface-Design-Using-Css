@@ -66,7 +66,7 @@
 /* all h2 text is styled the same */
 h2 {
   font-size: var(--font-size-h2);
-  font-family: 'Syne Tactile';
+  font-family: 'Syne';
   color: var(--color-primary);
 
 }
@@ -99,17 +99,21 @@ header {
 }
 
 /* how header container responds- screen width / flex, and such */
-header .container{
-}
+/* header .container{
+} */
 
 /* how container for each navigation tabs responds-  */
 nav ul {
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
 }
 
 /* how text in each navigation tab is styled */
 nav ul li a {
+  color: var(--color-primary);
+  font-family: 'Syne';
+  
 }
 
 /* ~ ~ ~ MAIN SECTION ~ ~ ~ */
