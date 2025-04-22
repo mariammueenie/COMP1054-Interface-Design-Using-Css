@@ -1,6 +1,16 @@
 @charset "UTF-8";
 @font-face
 
+/* cool google font */
+/* ref: https://css-tricks.com/typography-for-developers/ */
+@font-face {
+  font-family: 'New Rocker';
+  src: url('fonts/NewRocker.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* grunge metro aesthetic colours */
 /* used colour dropper tool, and images from fruitiger (grunge) aero aesthetics wiki to find hex codes for colours */
 /* colour dropper: https://imagecolorpicker.com/en */
@@ -43,6 +53,10 @@ p {
 
 
 /* ~ ~ ~ HEADER SECTION ~ ~ ~ */
+
+h1 {
+  font-family:
+}
 
 /* general header styling- font size, weight, etc */
 header {
