@@ -68,6 +68,7 @@ h1, h2, h3, h4 {
   font-family: 'New Rocker';
   color: var(--color-primary);
   margin-bottom: 20px;
+  text-align: center;
 
 }
 
@@ -136,8 +137,8 @@ nav ul li {
   flex: 0 1 auto;
   margin: auto;
   box-sizing: border-box;
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: var(--color-light);
+  background-color: var(--color-background);
   border: 2px solid var(--color-light);
   border-radius: 8px;
   padding: 1rem;
@@ -156,12 +157,27 @@ nav ul li a {
 .link-github {
   display: inline-flex;
   align-items: center;
-  background-color: var(--color-secondary);
+  background-color: var(--color-background);
   padding: 12px 20px;
   border-radius: 8px;
   border-color: var(--color-primary-alt);
   text-decoration: none;
   font-family: 'Syne';
+  font-size: var(--font-size-h4);
+  color: var(--color-light);
+}
+
+/* style the star icon */
+/* REF: */
+.link-github svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: var(--color-light); /* make star same colour as text*/
+}
+
+.link-github span {
+  display: inline-block;
   font-size: var(--font-size-h4);
 }
 
@@ -241,6 +257,7 @@ footer.page-footer{
   color: var(--color-primary);
   font-size: var(--font-size-text);
   text-align: center;
+  border-radius: 8px;
 }
 
 /* style container for footer content */
