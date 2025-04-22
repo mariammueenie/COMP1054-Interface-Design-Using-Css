@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* cool google font */
+/* cool google font: https://fonts.google.com/specimen/New+Rocker?query=new+rock */
 /* ref: https://css-tricks.com/typography-for-developers/ */
 @font-face {
   font-family: 'New Rocker';
@@ -10,12 +10,21 @@
   font-display: swap;
 }
 
+/* cool google font: https://fonts.google.com/specimen/Covered+By+Your+Grace */
+@font-face {
+  font-family: 'Covered By Your Grace';
+  src: url('./fonts/CoveredByYourGrace.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* grunge metro aesthetic colours */
 /* used colour dropper tool, and images from fruitiger (grunge) aero aesthetics wiki to find hex codes for colours */
 /* colour dropper: https://imagecolorpicker.com/en */
-/* aesthetics wiki page - fruiteger (grunge) metro: https://aesthetics.fandom.com/wiki/Frutiger_Metro?file=D1df6y6-173b630e-56aa-488e-9442-533f250d9eb5.jpg */
+/* aesthetics wiki page - fruitiger (grunge) metro: https://aesthetics.fandom.com/wiki/Frutiger_Metro?file=D1df6y6-173b630e-56aa-488e-9442-533f250d9eb5.jpg */
 
-/* have colour-palette pre-defined up here, so within each selector below, rather than put colours in each, I can choose colour-primary or colour-backround. makes it easier to change around overall look of page */
+/* have colour-palette pre-defined up here, so within each selector below, rather than put colours in each, I can choose colour-primary or colour-background. makes it easier to change around overall look of page */
 /* insert re */
 :root {
   --color-primary: #f5f5f5;
@@ -39,6 +48,7 @@
 /* all h2 text is styled the same */
 h2 {
   font-size: var(--font-size-h2);
+  font-family: 'Covered By Your Grace';
 
 }
 
