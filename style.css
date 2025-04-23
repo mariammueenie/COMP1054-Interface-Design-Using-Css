@@ -123,6 +123,11 @@ h1 {
   font-family: 'New Rocker';
   margin: auto;
   color: var(--color-primary);
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
 }
 
 /* general header styling- font size, weight, etc */
@@ -230,6 +235,7 @@ main ul li {
 /* how text in each 'example of css' box responds */
 main ul li a {
   text-align: center;
+  color: var(--color-primary);
 }
 
 /* steps section container */
@@ -251,12 +257,20 @@ main ul li a {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* individual item styling */
 #contribute ol li {
   font-family: 'Syne';
-  color: var(--color-light);
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border: 2px solid var(--color-light);
+  border-radius: 8px;
+  width: 90%;
+  text-align: center;
 }
 
 
@@ -344,6 +358,17 @@ aside ul li a {
   font-family: 'Syne';
   color: var(--color-primary);
 }
+
+/* Screen width responsiveness */
+
+/* MOBILE (0 - 600px) */
+@media (max-width: 600px)
+
+/* TABLET (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px)
+
+/* 💻 DESKTOP (1025px and up) */
+@media (min-width: 1025px)
 
 /* references */
 /* in case I reference something that I use in a few places, i can just write [ref 2] and then reader can scroll down here to see ref */
